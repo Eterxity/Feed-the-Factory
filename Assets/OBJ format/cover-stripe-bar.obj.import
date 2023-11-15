@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4xsae4e7cv6x"
+path="res://.godot/imported/cover-stripe-bar.obj-5c30d6a176ae402150050d2396c936a9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cover-stripe-bar.obj-5c30d6a176ae402150050d2396c936a9.mesh"]
+
+source_file="res://Assets/OBJ format/cover-stripe-bar.obj"
+dest_files=["res://.godot/imported/cover-stripe-bar.obj-5c30d6a176ae402150050d2396c936a9.mesh", "res://.godot/imported/cover-stripe-bar.obj-5c30d6a176ae402150050d2396c936a9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

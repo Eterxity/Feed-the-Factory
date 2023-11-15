@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkjtm8l5rripg"
+path="res://.godot/imported/robot-arm-b.obj-5062499124185749e5e4c1537f070bbb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/robot-arm-b.obj-5062499124185749e5e4c1537f070bbb.mesh"]
+
+source_file="res://Assets/OBJ format/robot-arm-b.obj"
+dest_files=["res://.godot/imported/robot-arm-b.obj-5062499124185749e5e4c1537f070bbb.mesh", "res://.godot/imported/robot-arm-b.obj-5062499124185749e5e4c1537f070bbb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

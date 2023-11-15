@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://debmok3jfa8t0"
+path="res://.godot/imported/cover-hopper.obj-e849afe2db1da1ad54889a1fcc2f12fb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cover-hopper.obj-e849afe2db1da1ad54889a1fcc2f12fb.mesh"]
+
+source_file="res://Assets/OBJ format/cover-hopper.obj"
+dest_files=["res://.godot/imported/cover-hopper.obj-e849afe2db1da1ad54889a1fcc2f12fb.mesh", "res://.godot/imported/cover-hopper.obj-e849afe2db1da1ad54889a1fcc2f12fb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

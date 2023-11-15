@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bupirqjlpj8dy"
+path="res://.godot/imported/structure-tall.obj-37c9d09e20f0d6c867ab77e2746f9ccf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure-tall.obj-37c9d09e20f0d6c867ab77e2746f9ccf.mesh"]
+
+source_file="res://Assets/OBJ format/structure-tall.obj"
+dest_files=["res://.godot/imported/structure-tall.obj-37c9d09e20f0d6c867ab77e2746f9ccf.mesh", "res://.godot/imported/structure-tall.obj-37c9d09e20f0d6c867ab77e2746f9ccf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

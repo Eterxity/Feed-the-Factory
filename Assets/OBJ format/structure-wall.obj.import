@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgwla7y2pqshj"
+path="res://.godot/imported/structure-wall.obj-13b2ee278bd564425b1552025eb1d6a1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure-wall.obj-13b2ee278bd564425b1552025eb1d6a1.mesh"]
+
+source_file="res://Assets/OBJ format/structure-wall.obj"
+dest_files=["res://.godot/imported/structure-wall.obj-13b2ee278bd564425b1552025eb1d6a1.mesh", "res://.godot/imported/structure-wall.obj-13b2ee278bd564425b1552025eb1d6a1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
