@@ -1,8 +1,28 @@
-[gd_scene load_steps=3 format=3 uid="uid://b8lwi1656relq"]
+[gd_scene load_steps=7 format=3 uid="uid://b8lwi1656relq"]
+
+[ext_resource type="Shader" path="res://Scenes/main.gdshader" id="1_kw15v"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vkuuh"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_1m65i"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mmd6r"]
+shader = ExtResource("1_kw15v")
+shader_parameter/baseColor = Color(0, 0.64, 0.84, 1)
+shader_parameter/horizonColor = Color(0.36, 0.59, 0.86, 1)
+shader_parameter/horizonHeight = -0.2
+shader_parameter/rayleighCoefficient = 0.2
+shader_parameter/mieCoefficient = null
+shader_parameter/mieEccentricity = 0.8
+shader_parameter/sunDiskScale = 0.2
+shader_parameter/sunSmoothing = 0.5
+
+[sub_resource type="Sky" id="Sky_wvcnj"]
+sky_material = SubResource("ShaderMaterial_mmd6r")
+
+[sub_resource type="Environment" id="Environment_m2qdx"]
+background_mode = 2
+sky = SubResource("Sky_wvcnj")
 
 [node name="Main" type="Node3D"]
 
@@ -13,3 +33,6 @@ shape = SubResource("BoxShape3D_vkuuh")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D/CollisionShape3D"]
 mesh = SubResource("BoxMesh_1m65i")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_m2qdx")
