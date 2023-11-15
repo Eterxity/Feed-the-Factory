@@ -1,137 +1,140 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700013901
+::res://::1700087994
 icon.svg::CompressedTexture2D::6507798077962334377::1699930808::1699930814::1::::<><>::
+README.md::TextFile::-1::1700015228::0::1::::<><>::
 ::res://Assets/::1700014424
 ::res://Assets/GLB format/::1700014454
-arrow-basic.glb::PackedScene::6947861547358587584::1698746352::1700014441::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-arrow.glb::PackedScene::5217504377488838901::1698746352::1700014441::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-box-large.glb::PackedScene::6719642546321073231::1698746352::1700014441::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-box-long.glb::PackedScene::4612829925322563676::1698746352::1700014442::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-box-small.glb::PackedScene::8378705378370035936::1698746352::1700014442::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-box-wide.glb::PackedScene::6238395791556600906::1698746352::1700014443::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-bars-fence.glb::PackedScene::4203180429384330187::1698746352::1700014443::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-bars-high.glb::PackedScene::2699017371751736725::1698746352::1700014444::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-bars-sides.glb::PackedScene::8836430654368596583::1698746352::1700014444::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-bars-stripe-fence.glb::PackedScene::2444294273558321719::1698746352::1700014445::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-bars-stripe-high.glb::PackedScene::4520682227698253048::1698746353::1700014445::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-bars-stripe-side.glb::PackedScene::2733759813858037143::1698746353::1700014446::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-bars-stripe.glb::PackedScene::6418359243703300635::1698746352::1700014446::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-bars.glb::PackedScene::4024391619440549775::1698746352::1700014446::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-long-sides.glb::PackedScene::3990046084786352303::1698746353::1700014447::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-long-stripe-sides.glb::PackedScene::8155766463986066372::1698746353::1700014447::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-long-stripe.glb::PackedScene::6624516323478395718::1698746353::1700014448::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-long.glb::PackedScene::5439250665511764870::1698746353::1700014448::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-sides.glb::PackedScene::2445968936652636407::1698746353::1700014449::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-stripe-sides.glb::PackedScene::4711456292401273929::1698746353::1700014449::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor-stripe.glb::PackedScene::8030099228972117389::1698746353::1700014450::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor.glb::PackedScene::4314551832170869412::1698746352::1700014450::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-bar.glb::PackedScene::5311607653657160264::1698746353::1700014451::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-corner.glb::PackedScene::5711313732260504186::1698746353::1700014451::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-hopper.glb::PackedScene::621341351841307368::1698746353::1700014451::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-stripe-bar.glb::PackedScene::3133614529433140805::1698746354::1700014452::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-stripe-corner.glb::PackedScene::6658294588943541026::1698746354::1700014452::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-stripe-hopper.glb::PackedScene::7597133615664934369::1698746354::1700014453::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-stripe-top.glb::PackedScene::1159654198923735027::1698746354::1700014453::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-stripe-window.glb::PackedScene::2735261521098803824::1698746354::1700014454::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-stripe.glb::PackedScene::3056131204735831140::1698746354::1700014454::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-top.glb::PackedScene::3045846395906767187::1698746354::1700014427::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover-window.glb::PackedScene::7865759581460770041::1698746354::1700014427::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-cover.glb::PackedScene::6911318239171593843::1698746353::1700014428::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-door-wide-closed.glb::PackedScene::7354337247878456080::1698746354::1700014428::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-door-wide-half.glb::PackedScene::8583948939593357847::1698746355::1700014429::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-door-wide-open.glb::PackedScene::542919117974653802::1698746355::1700014429::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-door.glb::PackedScene::5771514681877269195::1698746354::1700014430::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-floor-large.glb::PackedScene::4631815326247733999::1698746355::1700014430::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-floor.glb::PackedScene::309267216893470049::1698746355::1700014431::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-robot-arm-a.glb::PackedScene::427495400486556207::1698746355::1700014431::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-robot-arm-b.glb::PackedScene::3230737074758239537::1698746355::1700014432::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-scanner-high.glb::PackedScene::3213086619772283630::1698746355::1700014432::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-scanner-low.glb::PackedScene::8882856427121117977::1698746355::1700014433::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-corner-inner.glb::PackedScene::5847631648676158631::1698746355::1700014433::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-corner-outer.glb::PackedScene::7565979138036707253::1698746355::1700014433::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-doorway-wide.glb::PackedScene::4576008681566842930::1698746356::1700014434::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-doorway.glb::PackedScene::8944266313054306623::1698746355::1700014434::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-high.glb::PackedScene::6117140825369764802::1698746356::1700014435::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-medium.glb::PackedScene::3932936030785388571::1698746356::1700014435::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-short.glb::PackedScene::4557356936459316994::1698746356::1700014436::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-tall.glb::PackedScene::8620142293778642980::1698746356::1700014436::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-wall.glb::PackedScene::4686276474709108163::1698746356::1700014437::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-window-wide.glb::PackedScene::7599119456426823209::1698746356::1700014437::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-window.glb::PackedScene::2399846355728768533::1698746356::1700014438::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-yellow-high.glb::PackedScene::8111005986880651936::1698746357::1700014438::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-yellow-medium.glb::PackedScene::3217824634148906383::1698746357::1700014438::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-yellow-short.glb::PackedScene::6645875575975132572::1698746357::1700014439::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-structure-yellow-tall.glb::PackedScene::849573868117633950::1698746357::1700014439::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-top-large.glb::PackedScene::4460233024208235111::1698746357::1700014440::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-top.glb::PackedScene::3309960895980196598::1698746357::1700014440::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
+arrow-basic.glb::PackedScene::6947861547358587584::1698746352::1700014441::1::::<><>::uid://iya6rc6lr16r
+arrow.glb::PackedScene::5217504377488838901::1698746352::1700014441::1::::<><>::uid://iya6rc6lr16r
+box-large.glb::PackedScene::6719642546321073231::1698746352::1700014441::1::::<><>::uid://iya6rc6lr16r
+box-long.glb::PackedScene::4612829925322563676::1698746352::1700014442::1::::<><>::uid://iya6rc6lr16r
+box-small.glb::PackedScene::8378705378370035936::1698746352::1700014442::1::::<><>::uid://iya6rc6lr16r
+box-wide.glb::PackedScene::6238395791556600906::1698746352::1700014443::1::::<><>::uid://iya6rc6lr16r
+conveyor-bars-fence.glb::PackedScene::4203180429384330187::1698746352::1700014443::1::::<><>::uid://iya6rc6lr16r
+conveyor-bars-high.glb::PackedScene::2699017371751736725::1698746352::1700014444::1::::<><>::uid://iya6rc6lr16r
+conveyor-bars-sides.glb::PackedScene::8836430654368596583::1698746352::1700014444::1::::<><>::uid://iya6rc6lr16r
+conveyor-bars-stripe-fence.glb::PackedScene::2444294273558321719::1698746352::1700014445::1::::<><>::uid://iya6rc6lr16r
+conveyor-bars-stripe-high.glb::PackedScene::4520682227698253048::1698746353::1700014445::1::::<><>::uid://iya6rc6lr16r
+conveyor-bars-stripe-side.glb::PackedScene::2733759813858037143::1698746353::1700014446::1::::<><>::uid://iya6rc6lr16r
+conveyor-bars-stripe.glb::PackedScene::6418359243703300635::1698746352::1700014446::1::::<><>::uid://iya6rc6lr16r
+conveyor-bars.glb::PackedScene::4024391619440549775::1698746352::1700014446::1::::<><>::uid://iya6rc6lr16r
+conveyor-long-sides.glb::PackedScene::3990046084786352303::1698746353::1700014447::1::::<><>::uid://iya6rc6lr16r
+conveyor-long-stripe-sides.glb::PackedScene::8155766463986066372::1698746353::1700014447::1::::<><>::uid://iya6rc6lr16r
+conveyor-long-stripe.glb::PackedScene::6624516323478395718::1698746353::1700014448::1::::<><>::uid://iya6rc6lr16r
+conveyor-long.glb::PackedScene::5439250665511764870::1698746353::1700014448::1::::<><>::uid://iya6rc6lr16r
+conveyor-sides.glb::PackedScene::2445968936652636407::1698746353::1700014449::1::::<><>::uid://iya6rc6lr16r
+conveyor-stripe-sides.glb::PackedScene::4711456292401273929::1698746353::1700014449::1::::<><>::uid://iya6rc6lr16r
+conveyor-stripe.glb::PackedScene::8030099228972117389::1698746353::1700014450::1::::<><>::uid://iya6rc6lr16r
+conveyor.glb::PackedScene::4314551832170869412::1698746352::1700014450::1::::<><>::uid://iya6rc6lr16r
+cover-bar.glb::PackedScene::5311607653657160264::1698746353::1700014451::1::::<><>::uid://iya6rc6lr16r
+cover-corner.glb::PackedScene::5711313732260504186::1698746353::1700014451::1::::<><>::uid://iya6rc6lr16r
+cover-hopper.glb::PackedScene::621341351841307368::1698746353::1700014451::1::::<><>::uid://iya6rc6lr16r
+cover-stripe-bar.glb::PackedScene::3133614529433140805::1698746354::1700014452::1::::<><>::uid://iya6rc6lr16r
+cover-stripe-corner.glb::PackedScene::6658294588943541026::1698746354::1700014452::1::::<><>::uid://iya6rc6lr16r
+cover-stripe-hopper.glb::PackedScene::7597133615664934369::1698746354::1700014453::1::::<><>::uid://iya6rc6lr16r
+cover-stripe-top.glb::PackedScene::1159654198923735027::1698746354::1700014453::1::::<><>::uid://iya6rc6lr16r
+cover-stripe-window.glb::PackedScene::2735261521098803824::1698746354::1700014454::1::::<><>::uid://iya6rc6lr16r
+cover-stripe.glb::PackedScene::3056131204735831140::1698746354::1700014454::1::::<><>::uid://iya6rc6lr16r
+cover-top.glb::PackedScene::3045846395906767187::1698746354::1700014427::1::::<><>::uid://iya6rc6lr16r
+cover-window.glb::PackedScene::7865759581460770041::1698746354::1700014427::1::::<><>::uid://iya6rc6lr16r
+cover.glb::PackedScene::6911318239171593843::1698746353::1700014428::1::::<><>::uid://iya6rc6lr16r
+door-wide-closed.glb::PackedScene::7354337247878456080::1698746354::1700014428::1::::<><>::uid://iya6rc6lr16r
+door-wide-half.glb::PackedScene::8583948939593357847::1698746355::1700014429::1::::<><>::uid://iya6rc6lr16r
+door-wide-open.glb::PackedScene::542919117974653802::1698746355::1700014429::1::::<><>::uid://iya6rc6lr16r
+door.glb::PackedScene::5771514681877269195::1698746354::1700014430::1::::<><>::uid://iya6rc6lr16r
+floor-large.glb::PackedScene::4631815326247733999::1698746355::1700014430::1::::<><>::uid://iya6rc6lr16r
+floor.glb::PackedScene::309267216893470049::1698746355::1700014431::1::::<><>::uid://iya6rc6lr16r
+robot-arm-a.glb::PackedScene::427495400486556207::1698746355::1700014431::1::::<><>::uid://iya6rc6lr16r
+robot-arm-b.glb::PackedScene::3230737074758239537::1698746355::1700014432::1::::<><>::uid://iya6rc6lr16r
+scanner-high.glb::PackedScene::3213086619772283630::1698746355::1700014432::1::::<><>::uid://iya6rc6lr16r
+scanner-low.glb::PackedScene::8882856427121117977::1698746355::1700014433::1::::<><>::uid://iya6rc6lr16r
+structure-corner-inner.glb::PackedScene::5847631648676158631::1698746355::1700014433::1::::<><>::uid://iya6rc6lr16r
+structure-corner-outer.glb::PackedScene::7565979138036707253::1698746355::1700014433::1::::<><>::uid://iya6rc6lr16r
+structure-doorway-wide.glb::PackedScene::4576008681566842930::1698746356::1700014434::1::::<><>::uid://iya6rc6lr16r
+structure-doorway.glb::PackedScene::8944266313054306623::1698746355::1700014434::1::::<><>::uid://iya6rc6lr16r
+structure-high.glb::PackedScene::6117140825369764802::1698746356::1700014435::1::::<><>::uid://iya6rc6lr16r
+structure-medium.glb::PackedScene::3932936030785388571::1698746356::1700014435::1::::<><>::uid://iya6rc6lr16r
+structure-short.glb::PackedScene::4557356936459316994::1698746356::1700014436::1::::<><>::uid://iya6rc6lr16r
+structure-tall.glb::PackedScene::8620142293778642980::1698746356::1700014436::1::::<><>::uid://iya6rc6lr16r
+structure-wall.glb::PackedScene::4686276474709108163::1698746356::1700014437::1::::<><>::uid://iya6rc6lr16r
+structure-window-wide.glb::PackedScene::7599119456426823209::1698746356::1700014437::1::::<><>::uid://iya6rc6lr16r
+structure-window.glb::PackedScene::2399846355728768533::1698746356::1700014438::1::::<><>::uid://iya6rc6lr16r
+structure-yellow-high.glb::PackedScene::8111005986880651936::1698746357::1700014438::1::::<><>::uid://iya6rc6lr16r
+structure-yellow-medium.glb::PackedScene::3217824634148906383::1698746357::1700014438::1::::<><>::uid://iya6rc6lr16r
+structure-yellow-short.glb::PackedScene::6645875575975132572::1698746357::1700014439::1::::<><>::uid://iya6rc6lr16r
+structure-yellow-tall.glb::PackedScene::849573868117633950::1698746357::1700014439::1::::<><>::uid://iya6rc6lr16r
+top-large.glb::PackedScene::4460233024208235111::1698746357::1700014440::1::::<><>::uid://iya6rc6lr16r
+top.glb::PackedScene::3309960895980196598::1698746357::1700014440::1::::<><>::uid://iya6rc6lr16r
 ::res://Assets/GLB format/Textures/::1700014457
 colormap.png::CompressedTexture2D::611112072223203887::1698746372::1700014457::1::::<><>::
 ::res://Assets/OBJ format/::1700014179
-arrow-basic.obj::Mesh::7475076083157445176::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-arrow.obj::Mesh::7223945829272969334::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-box-large.obj::Mesh::8344418061982555527::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-box-long.obj::Mesh::6891841447132915179::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-box-small.obj::Mesh::9141710905799851141::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-box-wide.obj::Mesh::1209419658026103151::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-bars-fence.obj::Mesh::748280908565365528::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-bars-high.obj::Mesh::6526144780892582908::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-bars-sides.obj::Mesh::556738647653260612::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-bars-stripe-fence.obj::Mesh::5596539243574267223::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-bars-stripe-high.obj::Mesh::3862326561288916810::1698746353::1700014176::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-bars-stripe-side.obj::Mesh::145600444291259017::1698746353::1700014176::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-bars-stripe.obj::Mesh::6670592361994068408::1698746352::1700014177::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-bars.obj::Mesh::2491612060502988294::1698746352::1700014177::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-long-sides.obj::Mesh::375087995469122752::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-long-stripe-sides.obj::Mesh::2992621808215556761::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-long-stripe.obj::Mesh::2962292595663783570::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-long.obj::Mesh::1044031156158395719::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-sides.obj::Mesh::7788446557075680085::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-stripe-sides.obj::Mesh::7780288159871761456::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor-stripe.obj::Mesh::6652019978569364988::1698746353::1700014178::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-conveyor.obj::Mesh::4254698803533090710::1698746352::1700014178::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-bar.obj::Mesh::7444246094064250845::1698746353::1700014178::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-corner.obj::Mesh::5539137260529716800::1698746353::1700014178::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-hopper.obj::Mesh::7442835977317022995::1698746353::1700014178::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-stripe-bar.obj::Mesh::4470470998526548441::1698746354::1700014178::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-stripe-corner.obj::Mesh::7328454371097504630::1698746354::1700014178::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-stripe-hopper.obj::Mesh::6099122633282688030::1698746354::1700014178::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-stripe-top.obj::Mesh::41903699020365212::1698746354::1700014179::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-stripe-window.obj::Mesh::2213581461465003725::1698746354::1700014179::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-stripe.obj::Mesh::7043277071115797757::1698746354::1700014179::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-top.obj::Mesh::3259917436548677179::1698746354::1700014171::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover-window.obj::Mesh::310936812051360963::1698746354::1700014171::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-cover.obj::Mesh::121478595056871756::1698746353::1700014171::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-door-wide-closed.obj::Mesh::3915501886109060038::1698746354::1700014171::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-door-wide-half.obj::Mesh::7982573476095489954::1698746354::1700014172::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-door-wide-open.obj::Mesh::5848460558853315660::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-door.obj::Mesh::2223286269252780960::1698746354::1700014172::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-floor-large.obj::Mesh::7017136057521401143::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-floor.obj::Mesh::4544605795456689912::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-robot-arm-a.obj::Mesh::1625841038781029176::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-robot-arm-b.obj::Mesh::3108065323899246140::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-scanner-high.obj::Mesh::1235473009386736905::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-scanner-low.obj::Mesh::4659879268444810876::1698746355::1700014173::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-corner-inner.obj::Mesh::8286849459579431466::1698746355::1700014173::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-corner-outer.obj::Mesh::3723962441138626456::1698746355::1700014173::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-doorway-wide.obj::Mesh::52200832041920399::1698746356::1700014173::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-doorway.obj::Mesh::6594358971516806941::1698746355::1700014173::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-high.obj::Mesh::4277087272562156372::1698746356::1700014173::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-medium.obj::Mesh::5643138802573147745::1698746356::1700014173::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-short.obj::Mesh::315669846742664246::1698746356::1700014173::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-tall.obj::Mesh::3821680172000229082::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-wall.obj::Mesh::5240060345794104591::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-window-wide.obj::Mesh::9145512690705393388::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-window.obj::Mesh::8972085555089195180::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-yellow-high.obj::Mesh::620673505552392788::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-yellow-medium.obj::Mesh::595218276482597838::1698746357::1700014174::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-yellow-short.obj::Mesh::564421206754340428::1698746357::1700014174::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-structure-yellow-tall.obj::Mesh::6895123954711828400::1698746357::1700014175::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-top-large.obj::Mesh::2258000097223085449::1698746357::1700014175::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
-top.obj::Mesh::2173183358768811346::1698746357::1700014175::1::::<><>::uid://bgdvc1nv5enld::::res://Assets/OBJ format/Textures/colormap.png
+arrow-basic.obj::Mesh::7475076083157445176::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld
+arrow.obj::Mesh::7223945829272969334::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld
+box-large.obj::Mesh::8344418061982555527::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld
+box-long.obj::Mesh::6891841447132915179::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld
+box-small.obj::Mesh::9141710905799851141::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld
+box-wide.obj::Mesh::1209419658026103151::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld
+conveyor-bars-fence.obj::Mesh::748280908565365528::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld
+conveyor-bars-high.obj::Mesh::6526144780892582908::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld
+conveyor-bars-sides.obj::Mesh::556738647653260612::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld
+conveyor-bars-stripe-fence.obj::Mesh::5596539243574267223::1698746352::1700014176::1::::<><>::uid://bgdvc1nv5enld
+conveyor-bars-stripe-high.obj::Mesh::3862326561288916810::1698746353::1700014176::1::::<><>::uid://bgdvc1nv5enld
+conveyor-bars-stripe-side.obj::Mesh::145600444291259017::1698746353::1700014176::1::::<><>::uid://bgdvc1nv5enld
+conveyor-bars-stripe.obj::Mesh::6670592361994068408::1698746352::1700014177::1::::<><>::uid://bgdvc1nv5enld
+conveyor-bars.obj::Mesh::2491612060502988294::1698746352::1700014177::1::::<><>::uid://bgdvc1nv5enld
+conveyor-long-sides.obj::Mesh::375087995469122752::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld
+conveyor-long-stripe-sides.obj::Mesh::2992621808215556761::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld
+conveyor-long-stripe.obj::Mesh::2962292595663783570::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld
+conveyor-long.obj::Mesh::1044031156158395719::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld
+conveyor-sides.obj::Mesh::7788446557075680085::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld
+conveyor-stripe-sides.obj::Mesh::7780288159871761456::1698746353::1700014177::1::::<><>::uid://bgdvc1nv5enld
+conveyor-stripe.obj::Mesh::6652019978569364988::1698746353::1700014178::1::::<><>::uid://bgdvc1nv5enld
+conveyor.obj::Mesh::4254698803533090710::1698746352::1700014178::1::::<><>::uid://bgdvc1nv5enld
+cover-bar.obj::Mesh::7444246094064250845::1698746353::1700014178::1::::<><>::uid://bgdvc1nv5enld
+cover-corner.obj::Mesh::5539137260529716800::1698746353::1700014178::1::::<><>::uid://bgdvc1nv5enld
+cover-hopper.obj::Mesh::7442835977317022995::1698746353::1700014178::1::::<><>::uid://bgdvc1nv5enld
+cover-stripe-bar.obj::Mesh::4470470998526548441::1698746354::1700014178::1::::<><>::uid://bgdvc1nv5enld
+cover-stripe-corner.obj::Mesh::7328454371097504630::1698746354::1700014178::1::::<><>::uid://bgdvc1nv5enld
+cover-stripe-hopper.obj::Mesh::6099122633282688030::1698746354::1700014178::1::::<><>::uid://bgdvc1nv5enld
+cover-stripe-top.obj::Mesh::41903699020365212::1698746354::1700014179::1::::<><>::uid://bgdvc1nv5enld
+cover-stripe-window.obj::Mesh::2213581461465003725::1698746354::1700014179::1::::<><>::uid://bgdvc1nv5enld
+cover-stripe.obj::Mesh::7043277071115797757::1698746354::1700014179::1::::<><>::uid://bgdvc1nv5enld
+cover-top.obj::Mesh::3259917436548677179::1698746354::1700014171::1::::<><>::uid://bgdvc1nv5enld
+cover-window.obj::Mesh::310936812051360963::1698746354::1700014171::1::::<><>::uid://bgdvc1nv5enld
+cover.obj::Mesh::121478595056871756::1698746353::1700014171::1::::<><>::uid://bgdvc1nv5enld
+door-wide-closed.obj::Mesh::3915501886109060038::1698746354::1700014171::1::::<><>::uid://bgdvc1nv5enld
+door-wide-half.obj::Mesh::7982573476095489954::1698746354::1700014172::1::::<><>::uid://bgdvc1nv5enld
+door-wide-open.obj::Mesh::5848460558853315660::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld
+door.obj::Mesh::2223286269252780960::1698746354::1700014172::1::::<><>::uid://bgdvc1nv5enld
+floor-large.obj::Mesh::7017136057521401143::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld
+floor.obj::Mesh::4544605795456689912::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld
+robot-arm-a.obj::Mesh::1625841038781029176::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld
+robot-arm-b.obj::Mesh::3108065323899246140::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld
+scanner-high.obj::Mesh::1235473009386736905::1698746355::1700014172::1::::<><>::uid://bgdvc1nv5enld
+scanner-low.obj::Mesh::4659879268444810876::1698746355::1700014173::1::::<><>::uid://bgdvc1nv5enld
+structure-corner-inner.obj::Mesh::8286849459579431466::1698746355::1700014173::1::::<><>::uid://bgdvc1nv5enld
+structure-corner-outer.obj::Mesh::3723962441138626456::1698746355::1700014173::1::::<><>::uid://bgdvc1nv5enld
+structure-doorway-wide.obj::Mesh::52200832041920399::1698746356::1700014173::1::::<><>::uid://bgdvc1nv5enld
+structure-doorway.obj::Mesh::6594358971516806941::1698746355::1700014173::1::::<><>::uid://bgdvc1nv5enld
+structure-high.obj::Mesh::4277087272562156372::1698746356::1700014173::1::::<><>::uid://bgdvc1nv5enld
+structure-medium.obj::Mesh::5643138802573147745::1698746356::1700014173::1::::<><>::uid://bgdvc1nv5enld
+structure-short.obj::Mesh::315669846742664246::1698746356::1700014173::1::::<><>::uid://bgdvc1nv5enld
+structure-tall.obj::Mesh::3821680172000229082::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld
+structure-wall.obj::Mesh::5240060345794104591::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld
+structure-window-wide.obj::Mesh::9145512690705393388::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld
+structure-window.obj::Mesh::8972085555089195180::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld
+structure-yellow-high.obj::Mesh::620673505552392788::1698746356::1700014174::1::::<><>::uid://bgdvc1nv5enld
+structure-yellow-medium.obj::Mesh::595218276482597838::1698746357::1700014174::1::::<><>::uid://bgdvc1nv5enld
+structure-yellow-short.obj::Mesh::564421206754340428::1698746357::1700014174::1::::<><>::uid://bgdvc1nv5enld
+structure-yellow-tall.obj::Mesh::6895123954711828400::1698746357::1700014175::1::::<><>::uid://bgdvc1nv5enld
+top-large.obj::Mesh::2258000097223085449::1698746357::1700014175::1::::<><>::uid://bgdvc1nv5enld
+top.obj::Mesh::2173183358768811346::1698746357::1700014175::1::::<><>::uid://bgdvc1nv5enld
 ::res://Assets/OBJ format/Textures/::1700014180
 colormap.png::CompressedTexture2D::2815026893903347981::1698746372::1700014180::1::::<><>::
 ::res://Assets/Textures/::1700014171
 variation-a.png::CompressedTexture2D::2295681659273860944::1698746372::1700014171::1::::<><>::
-::res://Scenes/::1699931038
-main.tscn::PackedScene::4726712154136131598::1699931038::0::1::::<><>::
+::res://Scenes/::1700015154
+conveyor_bars_fence.tscn::PackedScene::2242114627978802521::1700015018::0::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
+main.gdshader::Shader::-1::1700015154::0::1::::<><>::
+main.tscn::PackedScene::4726712154136131598::1700015143::0::1::::<><>::res://Scenes/main.gdshader<>uid://67dkhg14eyf6::::res://Scenes/conveyor_bars_fence.tscn
 ::res://Scripts/::1699930832

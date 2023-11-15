@@ -1,0 +1,59 @@
+[gd_scene load_steps=9 format=3 uid="uid://cua487brr765c"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1u0xb"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_1ou6m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s3krq"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_fb6nx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lqxc5"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_x6jec"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ysu5l"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_tc2en"]
+
+[node name="Basic Dropper" type="Node3D"]
+
+[node name="Base" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Base"]
+shape = SubResource("BoxShape3D_1u0xb")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Base/CollisionShape3D"]
+mesh = SubResource("BoxMesh_1ou6m")
+
+[node name="Shaft" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Shaft"]
+transform = Transform3D(0.521, 0, 0, 0, 2.5, 0, 0, 0, 0.521, 0, 0, 0)
+shape = SubResource("BoxShape3D_s3krq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Shaft/CollisionShape3D"]
+mesh = SubResource("BoxMesh_fb6nx")
+
+[node name="Top" type="StaticBody3D" parent="."]
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 2.50528, 0)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Top"]
+transform = Transform3D(4.66739, 0, 0, 0, 1, 0, 0, 0, 1, 1.19465, 0, 0)
+shape = SubResource("BoxShape3D_lqxc5")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Top/CollisionShape3D"]
+mesh = SubResource("BoxMesh_x6jec")
+
+[node name="Spawner" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6005, 1.37242, 0)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Spawner"]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0.200329, 0.713537, 0)
+shape = SubResource("BoxShape3D_ysu5l")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Spawner/CollisionShape3D"]
+mesh = SubResource("BoxMesh_tc2en")
