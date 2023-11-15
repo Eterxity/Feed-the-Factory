@@ -1,8 +1,9 @@
 MeshInstance3D
 CollisionShape3D
+RigidBody3D
+Timer
 StaticBody3D
 CollisionPolygon3D
-RigidBody3D
 DirectionalLight3D
 Camera3D
 WorldEnvironment

@@ -1,7 +1,8 @@
-[gd_scene load_steps=16 format=3 uid="uid://b8lwi1656relq"]
+[gd_scene load_steps=17 format=3 uid="uid://b8lwi1656relq"]
 
 [ext_resource type="Shader" path="res://Scenes/main.gdshader" id="1_kw15v"]
 [ext_resource type="Texture2D" uid="uid://iya6rc6lr16r" path="res://Assets/GLB format/Textures/colormap.png" id="2_6usob"]
+[ext_resource type="PackedScene" uid="uid://cua487brr765c" path="res://Scenes/basic_dropper.tscn" id="3_g0bx4"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vkuuh"]
 
@@ -168,3 +169,6 @@ shape = SubResource("BoxShape3D_8ygt5")
 [node name="Group3" type="MeshInstance3D" parent="conveyor-bars-fence/StaticBody3D/CollisionShape3D"]
 mesh = SubResource("ArrayMesh_yh7f8")
 skeleton = NodePath("")
+
+[node name="Basic Dropper" parent="." instance=ExtResource("3_g0bx4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.25661, 0.5, 2.05507)

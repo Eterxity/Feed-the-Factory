@@ -1,4 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://cua487brr765c"]
+[gd_scene load_steps=10 format=3 uid="uid://cua487brr765c"]
+
+[ext_resource type="Script" path="res://Scripts/basic_dropper.cs" id="1_jx0eu"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1u0xb"]
 
@@ -17,6 +19,7 @@
 [sub_resource type="BoxMesh" id="BoxMesh_tc2en"]
 
 [node name="Basic Dropper" type="Node3D"]
+script = ExtResource("1_jx0eu")
 
 [node name="Base" type="StaticBody3D" parent="."]
 
@@ -57,3 +60,6 @@ shape = SubResource("BoxShape3D_ysu5l")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Spawner/CollisionShape3D"]
 mesh = SubResource("BoxMesh_tc2en")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
