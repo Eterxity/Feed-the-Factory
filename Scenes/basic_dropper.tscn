@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://cua487brr765c"]
+[gd_scene load_steps=11 format=3 uid="uid://cua487brr765c"]
 
 [ext_resource type="Script" path="res://Scripts/basic_dropper.cs" id="1_jx0eu"]
+[ext_resource type="PackedScene" uid="uid://c46wuycum4x8p" path="res://Scenes/basic_ore.tscn" id="2_rj1cf"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1u0xb"]
 
@@ -20,6 +21,7 @@
 
 [node name="Basic Dropper" type="Node3D"]
 script = ExtResource("1_jx0eu")
+_ore = ExtResource("2_rj1cf")
 
 [node name="Base" type="StaticBody3D" parent="."]
 
@@ -62,4 +64,5 @@ shape = SubResource("BoxShape3D_ysu5l")
 mesh = SubResource("BoxMesh_tc2en")
 
 [node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
 autostart = true

@@ -1,4 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://c46wuycum4x8p"]
+[gd_scene load_steps=4 format=3 uid="uid://c46wuycum4x8p"]
+
+[ext_resource type="Script" path="res://Scripts/basic_ore.cs" id="1_jfema"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8sflw"]
 size = Vector3(0.3, 0.3, 0.3)
@@ -7,6 +9,7 @@ size = Vector3(0.3, 0.3, 0.3)
 size = Vector3(0.3, 0.3, 0.3)
 
 [node name="BasicOre" type="Node3D"]
+script = ExtResource("1_jfema")
 
 [node name="RigidBody3D" type="RigidBody3D" parent="."]
 

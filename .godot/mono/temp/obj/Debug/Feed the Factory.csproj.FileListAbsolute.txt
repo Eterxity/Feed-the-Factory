@@ -1,0 +1,18 @@
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.csproj.AssemblyReference.cache
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.AssemblyInfoInputs.cache
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.AssemblyInfo.cs
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.csproj.CoreCompileInputs.cache
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.sourcelink.json
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\bin\Debug\Feed the Factory.deps.json
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\bin\Debug\Feed the Factory.runtimeconfig.json
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\bin\Debug\Feed the Factory.dll
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\bin\Debug\Feed the Factory.pdb
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.csproj.CopyComplete
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.dll
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\refint\Feed the Factory.dll
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.pdb
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\Feed the Factory.genruntimeconfig.cache
+C:\Users\mikey\Downloads\Godot Projects\Feed the Factory\Feed-the-Factory\.godot\mono\temp\obj\Debug\ref\Feed the Factory.dll
