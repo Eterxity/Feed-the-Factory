@@ -7,6 +7,9 @@ public partial class basic_dropper : Node3D
 	private PackedScene _ore;
 
 	[Export]
+	private float _oreDropFreq;
+
+	[Export]
 	private Timer _timer;
 
 	[Export]
@@ -14,7 +17,7 @@ public partial class basic_dropper : Node3D
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta){
-
+		_timer.WaitTime = _oreDropFreq;
 	}
 
 	public void _on_timer_timeout(){

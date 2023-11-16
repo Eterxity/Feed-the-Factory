@@ -1,9 +1,3 @@
-res://Scenes/main.tscn
-res://Scenes/main.gdshader
-res://Scenes/basic_dropper.tscn
-res://Scenes/basic_ore.tscn
 res://Scripts/basic_dropper.cs
 res://Scripts/basic_ore.cs
 res://Scripts/main.cs
-res://Scenes/basic_furnace.tscn
-res://Scenes/conveyor_bars_fence.tscn

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GVvx+ovOSv9PBs/cpIGNqMU/G+j0S4poPBOKbYqrqmXdCSQ4NOYithiuIArKlw4jI45It1NxE3ejGVDK5FGYBw==",
+  "dgSpecHash": "f8JjXFW5TH6u2Oa4/1cKmUlqCL63zrqpRXuj9nKBm9Gbp7jHobp9jVO2H3M4Va5wyO+h3Vq9y5+KLTlLhcNgAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mikey\\Downloads\\Godot Projects\\Feed the Factory\\Feed-the-Factory\\Feed the Factory.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mikey\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
-    "C:\\Users\\mikey\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
-    "C:\\Users\\mikey\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512",
+    "C:\\Users\\mikey\\.nuget\\packages\\godot.sourcegenerators\\4.1.3\\godot.sourcegenerators.4.1.3.nupkg.sha512",
+    "C:\\Users\\mikey\\.nuget\\packages\\godotsharp\\4.1.3\\godotsharp.4.1.3.nupkg.sha512",
+    "C:\\Users\\mikey\\.nuget\\packages\\godotsharpeditor\\4.1.3\\godotsharpeditor.4.1.3.nupkg.sha512",
     "C:\\Users\\mikey\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
     "C:\\Users\\mikey\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
     "C:\\Users\\mikey\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
