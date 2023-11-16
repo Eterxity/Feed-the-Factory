@@ -2,7 +2,7 @@ ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1700092545
 icon.svg::CompressedTexture2D::6507798077962334377::1699930808::1699930814::1::::<><>::
 README.md::TextFile::-1::1700015228::0::1::::<><>::
-::res://Assets/::1700014424
+::res://Assets/::1700093375
 ::res://Assets/GLB format/::1700014454
 arrow-basic.glb::PackedScene::6947861547358587584::1698746352::1700014441::1::::<><>::uid://iya6rc6lr16r
 arrow.glb::PackedScene::5217504377488838901::1698746352::1700014441::1::::<><>::uid://iya6rc6lr16r
@@ -67,6 +67,7 @@ top-large.glb::PackedScene::4460233024208235111::1698746357::1700014440::1::::<>
 top.glb::PackedScene::3309960895980196598::1698746357::1700014440::1::::<><>::uid://iya6rc6lr16r
 ::res://Assets/GLB format/Textures/::1700014457
 colormap.png::CompressedTexture2D::611112072223203887::1698746372::1700014457::1::::<><>::
+::res://Assets/Materials/::1700093375
 ::res://Assets/OBJ format/::1700014179
 arrow-basic.obj::Mesh::7475076083157445176::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld
 arrow.obj::Mesh::7223945829272969334::1698746352::1700014175::1::::<><>::uid://bgdvc1nv5enld
@@ -133,13 +134,14 @@ top.obj::Mesh::2173183358768811346::1698746357::1700014175::1::::<><>::uid://bgd
 colormap.png::CompressedTexture2D::2815026893903347981::1698746372::1700014180::1::::<><>::
 ::res://Assets/Textures/::1700014171
 variation-a.png::CompressedTexture2D::2295681659273860944::1698746372::1700014171::1::::<><>::
-::res://Scenes/::1700092411
-basic_dropper.tscn::PackedScene::6178439647224362346::1700092411::0::1::::<><>::res://Scripts/basic_dropper.cs<>uid://c46wuycum4x8p::::res://Scenes/basic_ore.tscn
-basic_ore.tscn::PackedScene::6873686297559878773::1700092411::0::1::::<><>::res://Scripts/basic_ore.cs
+::res://Scenes/::1700093121
+basic_dropper.tscn::PackedScene::6178439647224362346::1700093121::0::1::::<><>::res://Scripts/basic_dropper.cs<>uid://c46wuycum4x8p::::res://Scenes/basic_ore.tscn
+basic_ore.tscn::PackedScene::6873686297559878773::1700093121::0::1::::<><>::res://Scripts/basic_ore.cs
 conveyor_bars_fence.tscn::PackedScene::2242114627978802521::1700015018::0::1::::<><>::uid://iya6rc6lr16r
-main.gdshader::Shader::-1::1700092411::0::1::::<><>::
-main.tscn::PackedScene::4726712154136131598::1700092411::0::1::::<><>::res://Scripts/main.cs<>res://Scenes/main.gdshader<>uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png<>uid://cua487brr765c::::res://Scenes/basic_dropper.tscn<>uid://c46wuycum4x8p::::res://Scenes/basic_ore.tscn
+main.gdshader::Shader::-1::1700093121::0::1::::<><>::
+main.tscn::PackedScene::4726712154136131598::1700093121::0::1::::<><>::res://Scripts/main.cs<>res://Scenes/main.gdshader<>uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png<>uid://cua487brr765c::::res://Scenes/basic_dropper.tscn<>uid://c46wuycum4x8p::::res://Scenes/basic_ore.tscn
+new_standard_material_3d.tres::StandardMaterial3D::131582069563944327::1700093392::0::1::::<><>::
 ::res://Scripts/::1700090314
-basic_dropper.cs::CSharpScript::-1::1700092509::0::1::::<><>::
+basic_dropper.cs::CSharpScript::-1::1700093110::0::1::::<><>::
 basic_ore.cs::CSharpScript::-1::1700090623::0::1::::<><>::
 main.cs::CSharpScript::-1::1700091895::0::1::::<><>::

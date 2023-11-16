@@ -104,7 +104,6 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_i4ock")
 
 [node name="conveyor-bars-fence" type="Node3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2)
 
 [node name="Group" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
