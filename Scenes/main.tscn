@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" path="res://Scripts/main.cs" id="1_ase5u"]
 [ext_resource type="Shader" path="res://Scenes/main.gdshader" id="1_kw15v"]
-[ext_resource type="PackedScene" uid="uid://67dkhg14eyf6" path="res://Scenes/conveyor_bars_fence.tscn" id="2_wcw6q"]
 [ext_resource type="PackedScene" uid="uid://cua487brr765c" path="res://Scenes/basic_dropper.tscn" id="3_g0bx4"]
 [ext_resource type="PackedScene" uid="uid://c46wuycum4x8p" path="res://Scenes/basic_ore.tscn" id="5_263ds"]
+[ext_resource type="PackedScene" uid="uid://d2ufki2gglryi" path="res://Scenes/basic_furnace.tscn" id="6_j8lc1"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vkuuh"]
 
@@ -52,35 +52,8 @@ transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 6, 
 [node name="Basic Dropper" parent="." instance=ExtResource("3_g0bx4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87252, 0.5, 2.05507)
 
-[node name="Basic Dropper2" parent="." node_paths=PackedStringArray("_timer", "_spawner") instance=ExtResource("3_g0bx4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87252, 0.5, 1.05507)
-_timer = NodePath("../Basic Dropper/Timer")
-_spawner = NodePath("../Basic Dropper/Spawner")
-
-[node name="Basic Dropper3" parent="." node_paths=PackedStringArray("_timer", "_spawner") instance=ExtResource("3_g0bx4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87252, 0.5, 0.0550683)
-_timer = NodePath("../Basic Dropper/Timer")
-_spawner = NodePath("../Basic Dropper/Spawner")
-
-[node name="Basic Dropper4" parent="." node_paths=PackedStringArray("_timer", "_spawner") instance=ExtResource("3_g0bx4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87252, 0.5, -0.944932)
-_timer = NodePath("../Basic Dropper/Timer")
-_spawner = NodePath("../Basic Dropper/Spawner")
-
 [node name="BasicOre" parent="." instance=ExtResource("5_263ds")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.351203, 1.36371, 3.81384)
 
-[node name="conveyor-bars-fence" parent="." instance=ExtResource("2_wcw6q")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 1, 2)
-
-[node name="conveyor-bars-fence2" parent="." instance=ExtResource("2_wcw6q")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 1, 1)
-
-[node name="conveyor-bars-fence3" parent="." instance=ExtResource("2_wcw6q")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 1, 0)
-
-[node name="conveyor-bars-fence4" parent="." instance=ExtResource("2_wcw6q")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 1, -1)
-
-[node name="conveyor-bars-fence5" parent="." instance=ExtResource("2_wcw6q")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 1, -2)
+[node name="BasicFurnace" parent="." instance=ExtResource("6_j8lc1")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1, 2)
