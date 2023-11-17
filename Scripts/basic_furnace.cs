@@ -3,6 +3,7 @@ using System;
 
 public partial class basic_furnace : Node3D
 {
+
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
@@ -14,8 +15,9 @@ public partial class basic_furnace : Node3D
 	}
 
 	public void _on_area_3d_body_entered(Node3D body){
-		var moneyGained = body.Get("worth");
+		var moneyGained = body.GetParentNode3D().Get("_worth");
 		resources._money += moneyGained.As<float>();
+		GD.Print(resources._money);
 		body.QueueFree();
 	}
 }

@@ -5,6 +5,6 @@ public partial class basic_ore : Node3D
 {
 
 	[Export]
-	public int worth = 5;
+	public float _worth = 5f;
 
 }
