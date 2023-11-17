@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://gpe1l1tpqmx4"]
+
+[ext_resource type="Script" path="res://Scripts/basic_ore.cs" id="1_nv8vk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8sflw"]
+size = Vector3(0.3, 0.3, 0.3)
+
+[sub_resource type="BoxMesh" id="BoxMesh_2uihm"]
+size = Vector3(0.3, 0.3, 0.3)
+
+[node name="BasicOre" type="Node3D"]
+script = ExtResource("1_nv8vk")
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("BoxShape3D_8sflw")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D/CollisionShape3D"]
+mesh = SubResource("BoxMesh_2uihm")
