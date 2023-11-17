@@ -15,3 +15,6 @@ res://Scripts/main.cs
 res://Scripts/Ore Scripts/basic_ore.cs
 res://Scripts/Ore Scripts/iron_ore.cs
 res://Scripts/resources.cs
+res://Scenes/Conveyors/basic_conveyorL.tscn
+res://Scenes/Droppers/iron_dropper.tscn
+res://Scripts/basic_conveyor.cs
