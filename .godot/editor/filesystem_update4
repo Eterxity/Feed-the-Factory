@@ -1,12 +1,15 @@
-res://Scenes/main.tscn
+res://Scenes/basic_ore.tscn
 res://Scenes/main.gdshader
 res://Scenes/basic_dropper.tscn
-res://Scenes/basic_ore.tscn
-res://Scenes/conveyor_bars_fence.tscn
 res://Scenes/basic_furnace.tscn
-res://Scripts/basic_dropper.cs
-res://Scripts/basic_furnace.cs
-res://Scripts/basic_ore.cs
+res://Scenes/main.tscn
+res://Scenes/Droppers/basic_dropper.tscn
+res://Scenes/Ores/basic_ore.tscn
+res://Scenes/Conveyors/conveyor_bars_fence.tscn
+res://Scenes/Furnaces/basic_furnace.tscn
+res://Scripts/Droppers/basic_dropper.cs
+res://Scripts/Furnaces/basic_furnace.cs
 res://Scripts/main.cs
+res://Scripts/Ore Scripts/basic_ore.cs
+res://Scripts/Ore Scripts/iron_ore.cs
 res://Scripts/resources.cs
-res://Scripts/iron_ore.cs

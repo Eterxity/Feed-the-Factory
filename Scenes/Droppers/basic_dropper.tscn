@@ -1,8 +1,8 @@
 [gd_scene load_steps=12 format=3 uid="uid://cua487brr765c"]
 
-[ext_resource type="Script" path="res://Scripts/basic_dropper.cs" id="1_jx0eu"]
-[ext_resource type="PackedScene" uid="uid://c46wuycum4x8p" path="res://Scenes/basic_ore.tscn" id="2_rj1cf"]
-[ext_resource type="Material" uid="uid://b40ew51se0ml" path="res://Assets/Materials/new_standard_material_3d.tres" id="3_m1cet"]
+[ext_resource type="Script" path="res://Scripts/Droppers/basic_dropper.cs" id="1_1gxi0"]
+[ext_resource type="PackedScene" uid="uid://c46wuycum4x8p" path="res://Scenes/Ores/basic_ore.tscn" id="2_keqjj"]
+[ext_resource type="Material" uid="uid://b40ew51se0ml" path="res://Assets/Materials/new_standard_material_3d.tres" id="3_hos0m"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1u0xb"]
 
@@ -22,8 +22,8 @@ albedo_color = Color(0.141176, 0.141176, 0.141176, 1)
 [sub_resource type="BoxMesh" id="BoxMesh_tc2en"]
 
 [node name="Basic Dropper" type="Node3D" node_paths=PackedStringArray("_timer", "_spawner")]
-script = ExtResource("1_jx0eu")
-_ore = ExtResource("2_rj1cf")
+script = ExtResource("1_1gxi0")
+_ore = ExtResource("2_keqjj")
 _oreDropFreq = 3.0
 _timer = NodePath("Timer")
 _spawner = NodePath("Spawner")
@@ -46,7 +46,7 @@ shape = SubResource("BoxShape3D_s3krq")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Shaft/CollisionShape3D"]
 mesh = SubResource("BoxMesh_fb6nx")
-surface_material_override/0 = ExtResource("3_m1cet")
+surface_material_override/0 = ExtResource("3_hos0m")
 
 [node name="Top" type="StaticBody3D" parent="."]
 transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 2.50528, 0)
@@ -58,7 +58,7 @@ shape = SubResource("BoxShape3D_lqxc5")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Top/CollisionShape3D"]
 mesh = SubResource("BoxMesh_x6jec")
-surface_material_override/0 = ExtResource("3_m1cet")
+surface_material_override/0 = ExtResource("3_hos0m")
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 3.0

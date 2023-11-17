@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://c46wuycum4x8p"]
 
-[ext_resource type="Script" path="res://Scripts/iron_ore.cs" id="1_gmex5"]
+[ext_resource type="Script" path="res://Scripts/Ore Scripts/iron_ore.cs" id="1_gndty"]
 [ext_resource type="Material" uid="uid://b40ew51se0ml" path="res://Assets/Materials/new_standard_material_3d.tres" id="2_04rhn"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8sflw"]
@@ -11,7 +11,7 @@ material = ExtResource("2_04rhn")
 size = Vector3(0.3, 0.3, 0.3)
 
 [node name="IronOre" type="Node3D"]
-script = ExtResource("1_gmex5")
+script = ExtResource("1_gndty")
 
 [node name="RigidBody3D" type="RigidBody3D" parent="."]
 

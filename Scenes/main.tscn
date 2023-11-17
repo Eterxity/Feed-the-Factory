@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" path="res://Scripts/main.cs" id="1_ase5u"]
 [ext_resource type="Shader" path="res://Scenes/main.gdshader" id="1_kw15v"]
-[ext_resource type="PackedScene" uid="uid://cua487brr765c" path="res://Scenes/basic_dropper.tscn" id="3_g0bx4"]
-[ext_resource type="PackedScene" uid="uid://c46wuycum4x8p" path="res://Scenes/basic_ore.tscn" id="5_263ds"]
-[ext_resource type="PackedScene" uid="uid://d2ufki2gglryi" path="res://Scenes/basic_furnace.tscn" id="6_j8lc1"]
+[ext_resource type="PackedScene" uid="uid://cua487brr765c" path="res://Scenes/Droppers/basic_dropper.tscn" id="3_g0bx4"]
+[ext_resource type="PackedScene" uid="uid://c46wuycum4x8p" path="res://Scenes/Ores/basic_ore.tscn" id="5_263ds"]
+[ext_resource type="PackedScene" uid="uid://d2ufki2gglryi" path="res://Scenes/Furnaces/basic_furnace.tscn" id="6_j8lc1"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vkuuh"]
 
