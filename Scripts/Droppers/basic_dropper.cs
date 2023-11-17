@@ -24,6 +24,5 @@ public partial class basic_dropper : Node3D
 		Node3D oreInstance = _ore.Instantiate<Node3D>();
 		oreInstance.Position = _spawner.Position;
 		CallDeferred("add_child", oreInstance);
-		GD.Print("ore dropped");
 	}
 }

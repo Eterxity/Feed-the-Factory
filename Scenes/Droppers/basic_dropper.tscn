@@ -1,7 +1,7 @@
 [gd_scene load_steps=12 format=3 uid="uid://cua487brr765c"]
 
 [ext_resource type="Script" path="res://Scripts/Droppers/basic_dropper.cs" id="1_1gxi0"]
-[ext_resource type="PackedScene" uid="uid://c46wuycum4x8p" path="res://Scenes/Ores/basic_ore.tscn" id="2_keqjj"]
+[ext_resource type="PackedScene" uid="uid://gpe1l1tpqmx4" path="res://Scenes/Ores/basic_ore.tscn" id="2_vrref"]
 [ext_resource type="Material" uid="uid://b40ew51se0ml" path="res://Assets/Materials/new_standard_material_3d.tres" id="3_hos0m"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1u0xb"]
@@ -23,7 +23,7 @@ albedo_color = Color(0.141176, 0.141176, 0.141176, 1)
 
 [node name="Basic Dropper" type="Node3D" node_paths=PackedStringArray("_timer", "_spawner")]
 script = ExtResource("1_1gxi0")
-_ore = ExtResource("2_keqjj")
+_ore = ExtResource("2_vrref")
 _oreDropFreq = 3.0
 _timer = NodePath("Timer")
 _spawner = NodePath("Spawner")

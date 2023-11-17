@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://b8lwi1656relq"]
+[gd_scene load_steps=12 format=3 uid="uid://b8lwi1656relq"]
 
 [ext_resource type="Script" path="res://Scripts/main.cs" id="1_ase5u"]
 [ext_resource type="Shader" path="res://Scenes/main.gdshader" id="1_kw15v"]
 [ext_resource type="PackedScene" uid="uid://cua487brr765c" path="res://Scenes/Droppers/basic_dropper.tscn" id="3_g0bx4"]
-[ext_resource type="PackedScene" uid="uid://c46wuycum4x8p" path="res://Scenes/Ores/basic_ore.tscn" id="5_263ds"]
+[ext_resource type="PackedScene" uid="uid://c46wuycum4x8p" path="res://Scenes/Ores/iron_ore.tscn" id="5_263ds"]
+[ext_resource type="PackedScene" uid="uid://qchw811shyxa" path="res://Scenes/Conveyors/basic_conveyorR.tscn" id="6_djk0q"]
 [ext_resource type="PackedScene" uid="uid://d2ufki2gglryi" path="res://Scenes/Furnaces/basic_furnace.tscn" id="6_j8lc1"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vkuuh"]
@@ -49,11 +50,17 @@ transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 5, 8)
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 6, 0)
 
-[node name="Basic Dropper" parent="." instance=ExtResource("3_g0bx4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87252, 0.5, 2.05507)
-
 [node name="BasicOre" parent="." instance=ExtResource("5_263ds")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.351203, 1.36371, 3.81384)
 
 [node name="BasicFurnace" parent="." instance=ExtResource("6_j8lc1")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1, 2)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1, -1)
+
+[node name="Basic Dropper" parent="." instance=ExtResource("3_g0bx4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, 2)
+
+[node name="BasicConveyorR" parent="." instance=ExtResource("6_djk0q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2)
+
+[node name="BasicConveyorR2" parent="." instance=ExtResource("6_djk0q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 2)
