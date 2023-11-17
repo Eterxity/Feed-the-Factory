@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Feed the Factory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06b9b275b96cfb194b29dfb63ece635b70b5ed68")]
 [assembly: System.Reflection.AssemblyProductAttribute("Feed the Factory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Feed the Factory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
