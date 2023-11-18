@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://b8lwi1656relq"]
+[gd_scene load_steps=12 format=3 uid="uid://b8lwi1656relq"]
 
 [ext_resource type="Script" path="res://Scripts/main.cs" id="1_ase5u"]
 [ext_resource type="Shader" path="res://Scenes/main.gdshader" id="1_kw15v"]
 [ext_resource type="PackedScene" uid="uid://cua487brr765c" path="res://Scenes/Droppers/basic_dropper.tscn" id="3_g0bx4"]
 [ext_resource type="PackedScene" uid="uid://qchw811shyxa" path="res://Scenes/Conveyors/basic_conveyor.tscn" id="6_djk0q"]
 [ext_resource type="PackedScene" uid="uid://d2ufki2gglryi" path="res://Scenes/Furnaces/basic_furnace.tscn" id="6_j8lc1"]
+[ext_resource type="Script" path="res://Scripts/StatsDisplay.cs" id="6_ofv4u"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vkuuh"]
 
@@ -75,19 +76,21 @@ transform = Transform3D(-1, 0, -8.74232e-08, 0, 1, 0, 8.74232e-08, 0, -1, 2, 1, 
 [node name="BasicConveyor5" parent="." instance=ExtResource("6_djk0q")]
 transform = Transform3D(1.31135e-07, 0, -1, 0, 1, 0, 1, 0, 1.31135e-07, 1, 1, 3)
 
-[node name="Stats" type="Control" parent="."]
+[node name="Stats" type="Control" parent="." node_paths=PackedStringArray("_statsLabel")]
 layout_mode = 3
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
 offset_left = -463.0
 offset_right = 464.0
-offset_bottom = 123.0
+offset_bottom = 75.0
 grow_horizontal = 2
 size_flags_vertical = 0
+script = ExtResource("6_ofv4u")
+_statsLabel = NodePath("BG/Label")
 
 [node name="BG" type="Panel" parent="Stats"]
-modulate = Color(0.478431, 0.478431, 0.478431, 1)
+self_modulate = Color(0.14902, 0.14902, 0.14902, 1)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

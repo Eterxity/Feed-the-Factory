@@ -10,3 +10,4 @@ res://Scripts/Ore Scripts/basic_ore.cs
 res://Scripts/Ore Scripts/iron_ore.cs
 res://Scripts/resources.cs
 res://Scenes/Ores/basic_ore.tscn
+res://Scripts/StatsDisplay.cs
