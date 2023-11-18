@@ -1,15 +1,13 @@
-[gd_scene load_steps=9 format=3 uid="uid://m8g376qgjks2"]
+[gd_scene load_steps=10 format=3 uid="uid://qchw811shyxa"]
 
-[ext_resource type="Texture2D" uid="uid://iya6rc6lr16r" path="res://Assets/GLB format/Textures/colormap.png" id="1_1sbmw"]
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_syhqj"]
-size = Vector3(1, 0.3, 1)
+[ext_resource type="Script" path="res://Scripts/basic_conveyor.cs" id="1_0bma8"]
+[ext_resource type="Texture2D" uid="uid://iya6rc6lr16r" path="res://Assets/GLB format/Textures/colormap.png" id="1_ao6sd"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8s3sf"]
 resource_name = "colormap"
 cull_mode = 2
 vertex_color_use_as_albedo = true
-albedo_texture = ExtResource("1_1sbmw")
+albedo_texture = ExtResource("1_ao6sd")
 texture_filter = 2
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_rlxqm"]
@@ -48,7 +46,7 @@ shadow_mesh = SubResource("ArrayMesh_rlxqm")
 resource_name = "colormap"
 cull_mode = 2
 vertex_color_use_as_albedo = true
-albedo_texture = ExtResource("1_1sbmw")
+albedo_texture = ExtResource("1_ao6sd")
 texture_filter = 2
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_w4q0r"]
@@ -81,17 +79,14 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_w4q0r")
 
-[node name="BasicConveyorL" type="Node3D"]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+[sub_resource type="BoxShape3D" id="BoxShape3D_8qbqn"]
+size = Vector3(1, 0.4, 0.8)
+
+[node name="BasicConveyor" type="StaticBody3D"]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0, 0, 0)
+script = ExtResource("1_0bma8")
 
 [node name="conveyor" type="Node3D" parent="."]
-
-[node name="StaticBody3D" type="StaticBody3D" parent="conveyor"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.283914, 0)
-constant_linear_velocity = Vector3(-2, 0, 0)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="conveyor/StaticBody3D"]
-shape = SubResource("BoxShape3D_syhqj")
 
 [node name="conveyor2" type="MeshInstance3D" parent="conveyor"]
 mesh = SubResource("ArrayMesh_r2kct")
@@ -101,3 +96,7 @@ skeleton = NodePath("")
 transform = Transform3D(-0.5, 0, -7.54979e-08, 0, 0.5, 0, 7.54979e-08, 0, -0.5, 0.0139769, 0.318196, -0.00642312)
 mesh = SubResource("ArrayMesh_uwbfr")
 skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.263664, 0)
+shape = SubResource("BoxShape3D_8qbqn")

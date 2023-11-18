@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700246691
+::res://::1700336358
 icon.svg::CompressedTexture2D::6507798077962334377::1699930808::1699930814::1::::<><>::
 README.md::TextFile::-1::1700015228::0::1::::<><>::
 ::res://Assets/::1700176663
@@ -67,9 +67,9 @@ top-large.glb::PackedScene::4460233024208235111::1698746357::1700014440::1::::<>
 top.glb::PackedScene::3309960895980196598::1698746357::1700014440::1::::<><>::uid://iya6rc6lr16r
 ::res://Assets/GLB format/Textures/::1700014457
 colormap.png::CompressedTexture2D::611112072223203887::1698746372::1700014457::1::::<><>::
-::res://Assets/Materials/::1700244820
-new_standard_material_3d.tres::StandardMaterial3D::131582069563944327::1700244820::0::1::::<><>::
-::res://Assets/MyOwnModels/::1700246691
+::res://Assets/Materials/::1700267726
+new_standard_material_3d.tres::StandardMaterial3D::131582069563944327::1700267726::0::1::::<><>::
+::res://Assets/MyOwnModels/::1700246692
 BasicFurnace.glb::PackedScene::2683417452376234381::1700177115::1700177171::1::::<><>::
 IronDropper.glb::PackedScene::5852954143012528768::1700246674::1700246692::1::::<><>::
 ::res://Assets/OBJ format/::1700014179
@@ -138,27 +138,27 @@ top.obj::Mesh::2173183358768811346::1698746357::1700014175::1::::<><>::uid://bgd
 colormap.png::CompressedTexture2D::2815026893903347981::1698746372::1700014180::1::::<><>::
 ::res://Assets/Textures/::1700014171
 variation-a.png::CompressedTexture2D::2295681659273860944::1698746372::1700014171::1::::<><>::
-::res://Scenes/::1700246628
-main.gdshader::Shader::-1::1700246628::0::1::::<><>::
-main.tscn::PackedScene::4726712154136131598::1700246628::0::1::::<><>::res://Scripts/main.cs<>res://Scenes/main.gdshader<>uid://cua487brr765c::::res://Scenes/Droppers/basic_dropper.tscn<>uid://qchw811shyxa::::res://Scenes/Conveyors/basic_conveyorR.tscn<>uid://d2ufki2gglryi::::res://Scenes/Furnaces/basic_furnace.tscn<>uid://m8g376qgjks2::::res://Scenes/Conveyors/basic_conveyorL.tscn
-::res://Scenes/Conveyors/::1700246681
-basic_conveyorL.tscn::PackedScene::910806623097789327::1700246571::0::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-basic_conveyorR.tscn::PackedScene::1127616334773058950::1700246242::0::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-conveyor_bars_fenceR.tscn::PackedScene::2242114627978802521::1700246242::0::1::::<><>::uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
-::res://Scenes/Droppers/::1700244823
-basic_dropper.tscn::PackedScene::6178439647224362346::1700244823::0::1::::<><>::res://Scripts/Droppers/basic_dropper.cs<>uid://gpe1l1tpqmx4::::res://Scenes/Ores/basic_ore.tscn<>uid://b40ew51se0ml::::res://Assets/Materials/new_standard_material_3d.tres
-::res://Scenes/Furnaces/::1700244823
-basic_furnace.tscn::PackedScene::9095970289467858100::1700244823::0::1::::<><>::res://Scripts/Furnaces/basic_furnace.cs
+::res://Scenes/::1700272689
+main.gdshader::Shader::-1::1700272689::0::1::::<><>::
+main.tscn::PackedScene::4726712154136131598::1700272687::0::1::::<><>::res://Scripts/main.cs<>res://Scenes/main.gdshader<>uid://cua487brr765c::::res://Scenes/Droppers/basic_dropper.tscn<>uid://qchw811shyxa::::res://Scenes/Conveyors/basic_conveyor.tscn<>uid://d2ufki2gglryi::::res://Scenes/Furnaces/basic_furnace.tscn
+::res://Scenes/Conveyors/::1700272315
+basic_conveyor.tscn::PackedScene::1127616334773058950::1700272315::0::1::::<><>::res://Scripts/basic_conveyor.cs<>uid://iya6rc6lr16r::::res://Assets/GLB format/Textures/colormap.png
+::res://Scenes/Droppers/::1700265365
+basic_dropper.tscn::PackedScene::6178439647224362346::1700244823::0::1::::<><>::res://Scripts/Droppers/basic_dropper.cs<>uid://gpe1l1tpqmx4
+iron_dropper.tscn::PackedScene::5196523801318932503::1700265365::0::1::::<><>::
+::res://Scenes/Furnaces/::1700267842
+basic_furnace.tscn::PackedScene::9095970289467858100::1700267842::0::1::::<><>::res://Scripts/Furnaces/basic_furnace.cs
 ::res://Scenes/Ores/::1700244823
 basic_ore.tscn::PackedScene::452388645557412139::1700244823::0::1::::<><>::res://Scripts/Ore Scripts/basic_ore.cs
-iron_ore.tscn::PackedScene::6873686297559878773::1700244823::0::1::::<><>::res://Scripts/Ore Scripts/iron_ore.cs<>uid://b40ew51se0ml::::res://Assets/Materials/new_standard_material_3d.tres
-::res://Scripts/::1700243746
+iron_ore.tscn::PackedScene::6873686297559878773::1700244823::0::1::::<><>::res://Scripts/Ore Scripts/iron_ore.cs<>uid://b40ew51se0ml
+::res://Scripts/::1700263796
+basic_conveyor.cs::CSharpScript::-1::1700272620::0::1::::<><>::
 main.cs::CSharpScript::-1::1700091895::0::1::::<><>::
 resources.cs::CSharpScript::-1::1700178858::0::1::::<><>::
 ::res://Scripts/Droppers/::1700243743
 basic_dropper.cs::CSharpScript::-1::1700244849::0::1::::<><>::
 ::res://Scripts/Furnaces/::1700243746
-basic_furnace.cs::CSharpScript::-1::1700244845::0::1::::<><>::
+basic_furnace.cs::CSharpScript::-1::1700267817::0::1::::<><>::
 ::res://Scripts/Ore Scripts/::1700243723
 basic_ore.cs::CSharpScript::-1::1700244840::0::1::::<><>::
 iron_ore.cs::CSharpScript::-1::1700181079::0::1::::<><>::

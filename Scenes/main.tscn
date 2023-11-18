@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scripts/main.cs" id="1_ase5u"]
 [ext_resource type="Shader" path="res://Scenes/main.gdshader" id="1_kw15v"]
 [ext_resource type="PackedScene" uid="uid://cua487brr765c" path="res://Scenes/Droppers/basic_dropper.tscn" id="3_g0bx4"]
-[ext_resource type="PackedScene" uid="uid://qchw811shyxa" path="res://Scenes/Conveyors/basic_conveyorR.tscn" id="6_djk0q"]
+[ext_resource type="PackedScene" uid="uid://qchw811shyxa" path="res://Scenes/Conveyors/basic_conveyor.tscn" id="6_djk0q"]
 [ext_resource type="PackedScene" uid="uid://d2ufki2gglryi" path="res://Scenes/Furnaces/basic_furnace.tscn" id="6_j8lc1"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vkuuh"]
@@ -50,16 +50,22 @@ transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 5, 8)
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 6, 0)
 
 [node name="BasicFurnace" parent="." instance=ExtResource("6_j8lc1")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1, -1)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.02452, 0.952244, 4)
 
 [node name="Basic Dropper" parent="." instance=ExtResource("3_g0bx4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, 2)
 
-[node name="BasicConveyorR" parent="." instance=ExtResource("6_djk0q")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2)
+[node name="BasicConveyor" parent="." instance=ExtResource("6_djk0q")]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0, 1, 2)
 
-[node name="BasicConveyorR2" parent="." instance=ExtResource("6_djk0q")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 2)
+[node name="BasicConveyor2" parent="." instance=ExtResource("6_djk0q")]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 1, 1, 2)
 
-[node name="BasicConveyorR3" parent="." instance=ExtResource("6_djk0q")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 1, 2)
+[node name="BasicConveyor3" parent="." instance=ExtResource("6_djk0q")]
+transform = Transform3D(1.31135e-07, 0, -1, 0, 1, 0, 1, 0, 1.31135e-07, 2, 1, 2)
+
+[node name="BasicConveyor4" parent="." instance=ExtResource("6_djk0q")]
+transform = Transform3D(-1, 0, -8.74232e-08, 0, 1, 0, 8.74232e-08, 0, -1, 2, 1, 3)
+
+[node name="BasicConveyor5" parent="." instance=ExtResource("6_djk0q")]
+transform = Transform3D(1.31135e-07, 0, -1, 0, 1, 0, 1, 0, 1.31135e-07, 1, 1, 3)
