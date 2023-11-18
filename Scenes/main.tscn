@@ -55,6 +55,11 @@ transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.02452, 0.952244, 4)
 [node name="Basic Dropper" parent="." instance=ExtResource("3_g0bx4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, 2)
 
+[node name="Basic Dropper2" parent="." node_paths=PackedStringArray("_timer", "_spawner") instance=ExtResource("3_g0bx4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, 0.690106)
+_timer = NodePath("../Basic Dropper/Timer")
+_spawner = NodePath("../Basic Dropper/Spawner")
+
 [node name="BasicConveyor" parent="." instance=ExtResource("6_djk0q")]
 transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0, 1, 2)
 
@@ -69,3 +74,36 @@ transform = Transform3D(-1, 0, -8.74232e-08, 0, 1, 0, 8.74232e-08, 0, -1, 2, 1, 
 
 [node name="BasicConveyor5" parent="." instance=ExtResource("6_djk0q")]
 transform = Transform3D(1.31135e-07, 0, -1, 0, 1, 0, 1, 0, 1.31135e-07, 1, 1, 3)
+
+[node name="Stats" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -463.0
+offset_right = 464.0
+offset_bottom = 123.0
+grow_horizontal = 2
+size_flags_vertical = 0
+
+[node name="BG" type="Panel" parent="Stats"]
+modulate = Color(0.478431, 0.478431, 0.478431, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Stats/BG"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -28.5
+offset_right = 28.5
+offset_bottom = 63.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "Money:"

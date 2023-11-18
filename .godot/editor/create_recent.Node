@@ -1,3 +1,6 @@
+Label
+Panel
+Control
 CollisionShape3D
 StaticBody3D
 Area3D
